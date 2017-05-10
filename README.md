@@ -1,4 +1,6 @@
-usage: node linkmap_ext.js filepath -hl or node linkmap_ext.js filepath -u
+usage: node linkmap_ext.js filepath -hl 
+or 
+node linkmap_ext.js filepath -u
 -h: format size
 -l: stat libs
 -u: stat unused class
