@@ -139,7 +139,7 @@ LinkMap.prototype = {
 		return this.files
 	},
 
-	statUnsedClass: function(h) {
+	statUnusedClass: function(h) {
 		var files = this.files;
 		var self = this;
 		var i = 0, unUsedCount = 0, unUsedClass = []
@@ -197,7 +197,7 @@ linkmap.start(function(){
 	} else if (isFomatSize) {
 		ret = linkmap.statFiles(isFomatSize);
 	}  else if (isFindUnusedClass) {
-		ret = linkmap.statUnsedClass(isFomatSize);
+		ret = linkmap.statUnusedClass(isFomatSize);
 	}
 	                    
 	for (var i in ret) {
