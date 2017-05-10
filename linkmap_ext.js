@@ -173,7 +173,7 @@ LinkMap.prototype = {
 }
 
 if (!process.argv[2]) {
-	console.log('usage: node linkmap.js filepath -hl or node linkmap.js filepath -u')
+	console.log('usage: node linkmap_ext.js filepath -hl or node linkmap_ext.js filepath -u')
 	console.log('-h: format size')
 	console.log('-l: stat libs')
 	console.log('-u: stat unused class')
