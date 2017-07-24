@@ -1,4 +1,5 @@
-usage: node linkmap_ext.js filepath -hl 
+usage: run below command in terminal
+node linkmap_ext.js filepath -hl 
 or 
 node linkmap_ext.js filepath -u
 -h: format size
