@@ -15,8 +15,11 @@ node linkmap_ext.js filepath -u
 
 filePath refers to the path of the link map file.
 
-like this:
-node ~/Downloads/script/linkmap_ext.js ~/Downloads/script/linkMap.txt  -u
+put 'linkmap_ext.js' and  'linkMap.txt' into the same folder then run command like this:
+
+cd folder
+
+node linkmap_ext.js linkMap.txt  -u
 
 
 中文版详细介绍
